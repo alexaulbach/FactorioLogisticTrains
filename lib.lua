@@ -14,8 +14,4 @@ function copyPrototype(type, name, newName)
   return p
 end
 
-function printmsg(msg)
-  game.print(msg)
-end
-
-return copyPrototype, printmsg
+return copyPrototype
